@@ -1,4 +1,9 @@
-android_device_sony_kumquat_csm9
-================================
+CyanoSpacemod 9 Sony Kumquat Device Locked Bootloader device configs 
+====================================================================
 
-CyanoSpaceMod 9.1device source currently for kumquat
+CyanoSpaceMod 9.1 device source currently for kumquat
+
+Special thanks to 
+Atis112 
+Cyanogenmod
+FXP 
