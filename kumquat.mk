@@ -77,6 +77,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/sony/kumquat/bootanim/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Recovery and ramdisk for stock kernel
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/spacecaker/chargemon:system/bin/chargemon \
+   $(LOCAL_PATH)/spacecaker/recovery.tar:system/bin/recovery.tar \
+   $(LOCAL_PATH)/spacecaker/charger:system/bin/charger
+   $(LOCAL_PATH)/spacecaker/sh:system/etc/init.d/00wififix
+
 # Misc configuration files
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
