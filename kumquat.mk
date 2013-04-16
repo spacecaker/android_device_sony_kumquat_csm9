@@ -82,7 +82,8 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/spacecaker/chargemon:system/bin/chargemon \
    $(LOCAL_PATH)/spacecaker/recovery.tar:system/bin/recovery.tar \
    $(LOCAL_PATH)/spacecaker/charger:system/bin/charger
-   $(LOCAL_PATH)/spacecaker/sh:system/etc/init.d/00wififix
+   $(LOCAL_PATH)/spacecaker/00wififix:system/etc/init.d/00wififix
+   $(LOCAL_PATH)/spacecaker/sh:system/xbin/sh
 
 # Misc configuration files
 PRODUCT_COPY_FILES += \
