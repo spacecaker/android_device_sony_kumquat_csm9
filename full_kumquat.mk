@@ -35,6 +35,10 @@ $(call inherit-product, device/sony/montblanc-common/prebuilt/resources-480x854.
 # Inherit from kumquat device
 $(call inherit-product, device/sony/kumquat/kumquat.mk)
 
+# Copy bootanimation
+PRODUCT_COPY_FILES +=  \
+    vendor/sony/kumquat/bootanim/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_kumquat
 PRODUCT_DEVICE := kumquat
