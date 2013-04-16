@@ -73,6 +73,10 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/sensor00_f11_sensor0.idc:system/usr/idc/sensor00_f11_sensor0.idc \
    $(LOCAL_PATH)/config/synaptics_rmi4_i2c.idc:system/usr/idc/synaptics_rmi4_i2c.idc
 
+# Copy bootanimation
+PRODUCT_COPY_FILES +=  \
+    vendor/sony/kumquat/bootanim/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Misc configuration files
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
