@@ -45,7 +45,7 @@
 	fi
 
 	############# ############# #############
-	# Boot to FireDroid with custom ramdisk
+	# Boot to CyanoSpaceMod with custom ramdisk
 	############# ############# #############
 	# remount rootfs rw
 	mount -o remount,rw rootfs /
