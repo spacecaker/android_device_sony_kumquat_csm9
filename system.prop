@@ -58,3 +58,5 @@ persist.audio.hp=true
 
 ro.service.swiqi.supported=false
 persist.service.swiqi.enable=0
+
+ro.space.version=CyanoSpaceMod RC2
